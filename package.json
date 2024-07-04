@@ -1,0 +1,21 @@
+{
+  "name": "api-passgen",
+  "version": "1.0.0",
+  "description": "API Web para generar contraseñas",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "password generator"
+  ],
+  "author": "Engers Gustavo",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
